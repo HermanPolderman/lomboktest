@@ -12,7 +12,7 @@
   <repositories>
     <repository>
       <id>my-internal-site</id>
-      <url>http://localhost:8080/repository/internal/</url>
+      <url>http://localhost:8081/nexus/content/repositories/releases/</url>
     </repository>
   </repositories>
   
@@ -21,7 +21,7 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<version>1.16.2fc</version>
+			<version>1.16.8fnc</version>
 		</dependency>
 		
 		<!-- testing -->

@@ -1,9 +1,9 @@
 package lomboktest;
 
 import lombok.Data;
-import lombok.FieldConstants;
+import lombok.FieldNameConstants;
 
-@FieldConstants
+@FieldNameConstants
 @Data
 public class LombokBean {
 
